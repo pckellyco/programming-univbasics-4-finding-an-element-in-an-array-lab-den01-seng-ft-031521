@@ -11,8 +11,8 @@ def find_element_index(array, value_to_find)
     index = count
     count += 1
     puts element == value_to_find
-      index
-    end
+    count += 1
+    index
   end
 end
 
