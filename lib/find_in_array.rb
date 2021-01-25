@@ -6,14 +6,15 @@
 
 def find_element_index(array, value_to_find)
   count = 0
+  value_idx = nil
   while count < array.size do
     element =  array[count]
     index = count
-    count += 1
     puts element == value_to_find
     count += 1
     index
   end
+  value_idx
 end
 
 scale = [2, 3, 4, 5]
