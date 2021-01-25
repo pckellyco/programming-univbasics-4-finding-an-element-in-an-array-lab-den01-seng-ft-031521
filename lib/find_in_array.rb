@@ -12,5 +12,6 @@ def find_element_index(array, value_to_find)
     count += 1
     if (element == value_to_find)
       index
+    end
   end
 end
